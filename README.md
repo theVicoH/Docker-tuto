@@ -26,3 +26,22 @@ On obtient ce résultat. Docker va télécharger l'image ```unbuntu``` puis lanc
 Maintenant nous sommes l'utilisateur ```root``` et après le ```@``` on a l'id du container ici ```47ff5a06112d```.
 <img src="img/root@.png" alt="root@47ff5a06112d">
 
+### Docker ps, Docker stop et Docker rm
+
+Grâce à cette commande on peut lister toute les containers qui tournent sur la machine (en cours d'exe).
+
+```
+docker ps
+```
+
+Pour stoper un container en cours d'execution on peut utiliser
+
+```
+docker stop id-container/name-container
+```
+
+Pour supprimer un container on peut utiliser
+
+```
+docker rm id-container/name-container
+```
